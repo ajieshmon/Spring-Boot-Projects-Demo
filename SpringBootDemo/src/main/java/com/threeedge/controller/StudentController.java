@@ -25,8 +25,8 @@ public class StudentController {
 	
 	StudentDao sdao=new StudentDao();
 	
-	@RequestMapping(value="/savestudentinfo",method=RequestMethod.POST)
-	//@PostMapping(path = "/poststudentinfo")
+	//@RequestMapping(value="/savestudentinfo",method=RequestMethod.POST)
+	@PostMapping(path = "/poststudentinfo")
 	public String saveStudentInformation(@RequestBody Student student) throws SQLException {
 		return (sdao.saveStudentData(student));
 	}
