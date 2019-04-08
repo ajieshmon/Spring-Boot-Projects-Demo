@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringBootJPACrudDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 3edge
+Implementation-Vendor-Id: com.3edge
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringBootJPACrudDemo
+Created-By: Maven Integration for Eclipse
+
